@@ -7,7 +7,7 @@ There was a race condition between unshift function and ArrayStorage's butterfly
   
 I discovered this bug in 2018 October, November. but unfortunately buggy code was patched after i written exploit. (my co-worker @sweetchip also discovered kind of this issue)  
   
-Webkit patched their code like this => [link](https://github.com/WebKit/webkit/commit/c7f40e9c4f8cd7ce71389466560f010437b2097f)
+Webkit patched their code like this => [link](https://github.com/WebKit/WebKit/commit/266a919459e8ee1b42cb5b02072911bf96c675e9)
 
 
 # Exploit detail
